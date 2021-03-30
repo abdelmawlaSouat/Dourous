@@ -1,0 +1,31 @@
+.headerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.headerContainer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.headerContainer .logoContainer {
+  margin-right: 1rem;
+}
+
+.headerContainer > div:first-child {
+  display: flex;
+  align-items: center;
+}
+
+.authenticationLinks {
+  display: flex;
+  align-items: center;
+  margin: 0 1rem;
+  border-left: 1px solid black;
+  padding: 0 1rem !important;
+}
+
+.authenticationLinks li {
+  margin: 0 5px;
+}

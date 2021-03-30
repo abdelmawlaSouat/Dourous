@@ -1,0 +1,40 @@
+.footerSocialWidget ul,
+.footerMenuWidget ul {
+  display: flex;
+  list-style: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid #e0e0e0;
+  margin-top: 5rem;
+  padding: 1rem 10vh;
+  /* background-color: #e0e0e0; */
+}
+
+.container .firstRow,
+.container .firstRow > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.secondRow {
+  text-align: center;
+  margin-bottom: 1rem;
+  /* font-size: 0.8rem; */
+  /* background-color: #ebeef4; */
+}
+
+.container li {
+  margin-left: 10px;
+  margin-top: 4px;
+  padding-right: 15px;
+  text-align: center;
+}
+
+.footerMenuWidget {
+  border-left: 1px solid #6f7074;
+  margin-left: 2rem;
+}

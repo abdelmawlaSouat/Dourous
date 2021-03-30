@@ -1,0 +1,15 @@
+.coverContainer {
+  background-color: lightcoral;
+  width: 307px;
+  height: 200px;
+}
+
+.card {
+  background-color: grey !important;
+  width: 307px;
+  margin: 1rem;
+}
+
+.card .details {
+  padding: 1rem;
+}
